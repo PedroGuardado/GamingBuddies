@@ -1,0 +1,68 @@
+html, body, div, img {
+    font-size: 18px;
+    background-color: #f0ff79;
+    margin: 0;
+    border: 0;
+    padding-block: min(1vh, 1rem);
+}
+
+.bar ul {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.bar a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ed3833;
+}
+
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background-color: #ff5f85;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.consoles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+img {
+    height: 350px;
+    width: 200px;
+    border-radius: 5%;
+}
+
+.event-info {
+    text-align: center;
+}
+
+.arcade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+footer {
+    text-align: center;
+}
